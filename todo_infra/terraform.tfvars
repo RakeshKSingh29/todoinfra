@@ -5,6 +5,10 @@ resource_group = {
     resource_group_name     = "todo-infra-rg"
     resource_group_location = "centralindia"
   }
+    rg2 = {
+    resource_group_name     = "todo-infra-rg-01"
+    resource_group_location = "centralindia"
+  }
 }
 
 # Virtual Network
