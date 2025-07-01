@@ -6,8 +6,6 @@ module "resource_group" {
 
 }
 
-# maine git push ko main branch me test karne k liye ye line add ki hai
-
 module "virtual_network" {
   depends_on              = [module.resource_group]
   source                  = "../modules/azurerm_vnet"
